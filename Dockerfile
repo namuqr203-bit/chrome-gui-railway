@@ -47,7 +47,6 @@ RUN chmod +x /app/start.sh
 
 # Persist Chrome's profile so logins/history survive restarts if a volume is mounted here
 RUN mkdir -p /data/chrome-profile
-VOLUME ["/data/chrome-profile"]
 
 EXPOSE 8080
 
